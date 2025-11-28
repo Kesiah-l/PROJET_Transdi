@@ -12,6 +12,7 @@ public class menuScript : MonoBehaviour
                 SceneManager.LoadScene("GameScene");
                 break;
             case 1:
+                Debug.Log("Quitter le jeu");
                 Application.Quit();
                 break;
         }
